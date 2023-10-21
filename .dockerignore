@@ -1,0 +1,23 @@
+# Binary files
+*.exe
+*.out
+
+# Dependencies and caches
+vendor/
+go.sum
+go.mod
+Gopkg.lock
+
+# Build intermediate files
+*.o
+*.a
+
+# Local configuration files
+.env
+
+# Log files
+logs/
+
+# Test data and documentation
+testdata/
+docs/
