@@ -9,7 +9,7 @@ $ docker tag golang:latest jianghong0420/golang:1.0.0
 $ docker push jianghong0420/golang:1.0.0
 ```
 ```terminal
-$ kubectl apply -f k8s-deployment.yml
+$ kubectl apply -f deployment.yml
 ```
 ```terminal
 $ kubectl get pods
@@ -21,7 +21,7 @@ $ kubectl port-forward golang-xx 8080:8080
 $ kubectl logs -f golang-xx
 ```
 ```terminal
-$ kubectl apply -f . 
+$ kubectl apply -f .
 ```
 ```terminal
 $ kubectl get services
