@@ -3,10 +3,10 @@
 $ docker build -t golang:latest .
 ```
 ```terminal
-$ docker tag golang:latest jianghong0420/golang:1.0.0
+$ docker tag golang:latest jianghong0420/golang:1.0.1
 ```
 ```terminal
-$ docker push jianghong0420/golang:1.0.0
+$ docker push jianghong0420/golang:1.0.1
 ```
 ```terminal
 $ kubectl apply -f deployment.yml

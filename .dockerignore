@@ -4,8 +4,8 @@
 
 # Dependencies and caches
 vendor/
-go.sum
-go.mod
+# go.sum
+# go.mod
 Gopkg.lock
 
 # Build intermediate files
