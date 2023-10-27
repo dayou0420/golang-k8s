@@ -10,4 +10,4 @@ spec:
     port: 9090
     targetPort: 8080
   selector:
-    app: golang-deployment         # Map any pod with label `app=golang-deployment` to this service
+    app: golang-deployment       # Map any pod with label `app=golang-deployment` to this service
